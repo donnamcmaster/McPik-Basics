@@ -3,7 +3,7 @@
 Plugin Name: McPik Basics
 Plugin URI: https://www.donnamcmaster.com/
 Description: Some generally useful Piklist settings, widgets, and shortcodes. 
-Version: 0.2.0
+Version: 0.3.0
 Author: Donna McMaster
 Author URI: https://www.donnamcmaster.com/
 Plugin Type: Piklist
@@ -24,7 +24,7 @@ add_action( 'init', function() {
 			return;
 		}
 	}
-	include_once( 'includes/utils.php' );
+	include_once( 'includes/class-mcpik-utils.php' );
 });
 
 /**
