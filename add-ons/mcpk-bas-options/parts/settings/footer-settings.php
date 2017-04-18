@@ -8,16 +8,11 @@ piklist( 'field', array(
 	'type' => 'editor',
 	'field' => 'footer_address',
 	'label' => 'Address block',
-	'attributes' => array(
-		'class' => 'large-text',
-	),
-));
-
-piklist( 'field', array(
-	'type' => 'editor',
-	'field' => 'footer_contacts',
-	'label' => 'Contact list',
-	'attributes' => array(
+	'options' => array (
+		'media_buttons' => true,
+		'textarea_rows' => 8,
+		'teeny' => false,
+		'quicktags' => true,
 	),
 ));
 
