@@ -17,7 +17,7 @@ piklist( 'field', array(
 ));
 
 $year = date( 'Y' );
-piklist('field', array(
+piklist( 'field', array(
 	'type' => 'text',
 	'field' => 'copyright_year',
 	'label' => 'Copyright initial year',

@@ -1,6 +1,6 @@
 <?php
 /*
-Title: Default Images
+Title: Image Defaults
 Setting: mcw_common_content
 Tab Order: 20
 */
