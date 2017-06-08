@@ -9,7 +9,7 @@ piklist( 'field', array(
 	'type' => 'file',
 	'field' => 'default_page_header',
 	'label' => __( 'Default header image for secondary pages', 'mcpik'),
-	'description' => __( 'The image must be at least 1186px wide and 230px high. It will be cropped to an approximately 5:1 ratio.', 'mcpik' ),
+	'description' => __( 'The image must be at least 1186px wide and 160px high. It will be cropped to an approximately 5:1 ratio.', 'mcpik' ),
 	'help' => __( 'Upload a file or select an image from the media library.', 'mcpik' ),
 	'options' => array(
 		'modal_title' => __( 'Add or Select Image', 'mcpik' ),
